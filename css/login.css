@@ -168,7 +168,6 @@
   color: var(--text-dim);
 }
 
-/* Input with password toggle padding */
 input[type="password"], input.has-toggle {
   padding-right: 44px;
 }

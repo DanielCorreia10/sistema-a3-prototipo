@@ -25,8 +25,13 @@
   flex-shrink: 0;
 }
 
-.navbar-logo svg { color: var(--orange); }
-.navbar-logo span { color: var(--orange); }
+.navbar-logo svg {
+  color: var(--orange);
+}
+
+.navbar-logo span {
+  color: var(--orange);
+}
 
 .navbar-nav {
   display: flex;
@@ -44,7 +49,9 @@
 }
 
 .navbar-nav a:hover,
-.navbar-nav a.active { color: var(--text); }
+.navbar-nav a.active {
+  color: var(--text);
+}
 
 .navbar-nav a.active::after {
   content: '';
@@ -103,7 +110,9 @@
   padding: 40px 40px 80px;
 }
 
-.page-header { margin-bottom: 32px; }
+.page-header {
+  margin-bottom: 32px;
+}
 
 .page-header h1 {
   font-family: 'Rajdhani', sans-serif;
@@ -149,8 +158,14 @@
   box-shadow: 0 0 0 3px var(--orange-glow);
 }
 
-.search-wrap:focus-within svg { color: var(--orange); }
-.search-input::placeholder { color: var(--text-dim); }
+.search-input:focus + svg,
+.search-wrap:focus-within svg {
+  color: var(--orange);
+}
+
+.search-input::placeholder {
+  color: var(--text-dim);
+}
 
 .genre-filters {
   display: flex;
@@ -250,7 +265,9 @@
   opacity: 0;
 }
 
-.game-card:hover .card-wishlist-float { opacity: 1; }
+.game-card:hover .card-wishlist-float {
+  opacity: 1;
+}
 
 .card-wishlist-float:hover,
 .card-wishlist-float.active {
@@ -382,7 +399,9 @@
   color: var(--text);
 }
 
-.empty-state p { font-size: 14px; }
+.empty-state p {
+  font-size: 14px;
+}
 
 .results-info {
   font-size: 13px;
@@ -390,4 +409,6 @@
   margin-bottom: 20px;
 }
 
-.results-info strong { color: var(--text); }
+.results-info strong {
+  color: var(--text);
+}

@@ -1,3 +1,4 @@
+// ===== GAME DATA =====
 const GAMES_DATA = [
   {
     id: 1,

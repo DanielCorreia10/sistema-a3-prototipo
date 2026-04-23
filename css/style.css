@@ -52,6 +52,7 @@ input {
   font-family: inherit;
 }
 
+/* Scrollbar */
 ::-webkit-scrollbar {
   width: 6px;
 }
